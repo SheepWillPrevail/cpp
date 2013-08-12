@@ -1,0 +1,154 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// English (U.S.) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+#ifdef _WIN32
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+#pragma code_page(1252)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_PREFSDIALOG DIALOGEX 0, 0, 134, 271
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "foo_amBX settings"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,16,249,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL,68,249,50,14
+    COMBOBOX        IDC_UPS,79,7,48,30,CBS_DROPDOWNLIST | WS_VSCROLL | WS_TABSTOP
+    LTEXT           "Updates per second:",IDC_STATIC,7,9,68,8
+    CONTROL         "",IDC_KWINDOW,"msctls_trackbar32",TBS_BOTH | TBS_NOTICKS | WS_TABSTOP,7,115,118,15
+    LTEXT           "Kick window",IDC_STATIC,7,106,39,8
+    LTEXT           "High band amplification",IDC_STATIC,7,165,74,8
+    CONTROL         "",IDC_HIGHAMP,"msctls_trackbar32",TBS_BOTH | TBS_NOTICKS | WS_TABSTOP,7,175,118,15
+    LTEXT           "Mid band amplification",IDC_STATIC,7,192,71,8
+    CONTROL         "",IDC_MIDAMP,"msctls_trackbar32",TBS_BOTH | TBS_NOTICKS | WS_TABSTOP,7,202,118,15
+    LTEXT           "Low band amplification",IDC_STATIC,7,219,73,8
+    CONTROL         "",IDC_LOWAMP,"msctls_trackbar32",TBS_BOTH | TBS_NOTICKS | WS_TABSTOP,7,229,118,15
+    LTEXT           "Color preset",IDC_STATIC,7,22,40,8
+    COMBOBOX        IDC_COLORPRESET,7,32,120,30,CBS_DROPDOWNLIST | WS_VSCROLL | WS_TABSTOP
+    CONTROL         "",IDC_KICKATTN,"msctls_trackbar32",TBS_BOTH | TBS_NOTICKS | WS_TABSTOP,7,143,118,15
+    LTEXT           "Kick attenuation",IDC_STATIC,7,134,52,8
+    LTEXT           "Spectrum preset",IDC_STATIC,7,47,54,8
+    COMBOBOX        IDC_SPECTRUMPRESET,7,57,120,30,CBS_DROPDOWNLIST | WS_VSCROLL | WS_TABSTOP
+    CONTROL         "",IDC_KWINDOW2,"msctls_trackbar32",TBS_BOTH | TBS_NOTICKS | WS_TABSTOP,7,83,118,15
+    LTEXT           "Temporal buffer size",IDC_STATIC,7,74,66,8
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO 
+BEGIN
+    IDD_PREFSDIALOG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 127
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 263
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 1,0,0,0
+ PRODUCTVERSION 0,8,0,0
+ FILEFLAGSMASK 0x17L
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x2L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "080004b0"
+        BEGIN
+            VALUE "FileDescription", "Provides amBX hardware support to foobar2000"
+            VALUE "FileVersion", "1.0"
+            VALUE "InternalName", "foo_amBX"
+            VALUE "LegalCopyright", "Copyright (C) 2010 Robert Meijer <robert@grazz.com>"
+            VALUE "LegalTrademarks", "amBX is a registered trademark and property of amBX UK Ltd."
+            VALUE "OriginalFilename", "foo_amBX.dll"
+            VALUE "ProductName", "foo_amBX foobar2000 v1.0 module"
+            VALUE "ProductVersion", "0.8"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x800, 1200
+    END
+END
+
+#endif    // English (U.S.) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+
